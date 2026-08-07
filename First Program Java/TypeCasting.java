@@ -19,7 +19,10 @@ public class TypeCasting {
         byte y = 80;
         byte z = 100;
 
-        int d = (a + b) / c;
+        int d = (x * y) / z;
         System.out.println(d);
+
+        int number = 'A';
+        System.out.println(number);
     }
 }

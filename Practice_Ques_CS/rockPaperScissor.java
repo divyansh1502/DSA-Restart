@@ -17,10 +17,10 @@ public class rockPaperScissor {
             System.out.println("Draw");
         } else if(computer == 0 && user == 'p') {
             System.out.println("Computer Choosed: Rock");
-            System.out.println("Computer Wins");
+            System.out.println("User Wins");
         } else if(computer == 0 && user == 's') {
             System.out.println("Computer Choosed: Rock");
-            System.out.println("User wins");
+            System.out.println("Computer wins");
         } else if(computer == 1 && user == 'p') {
             System.out.println("Computer Choosed: Paper");
             System.out.println("Draw");
