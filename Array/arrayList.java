@@ -24,7 +24,7 @@ public class arrayList {
 
         list.remove(2);
 
-       
+       //interview HCL
 
         System.out.println(list);
     }
