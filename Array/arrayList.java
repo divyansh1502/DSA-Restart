@@ -8,7 +8,7 @@ public class arrayList {
         ArrayList<Integer> list = new ArrayList<>();
 
         // list.add(67);
-        // list.add(669);
+        // list.add(669);   
         // list.add(01);
         // list.add(13);
         // list.add(24);
@@ -17,15 +17,16 @@ public class arrayList {
         for (int i = 0; i < 5; i++) {
             list.add(sc.nextInt());
         }
+            System.out.println(list.get(1));  //pass index here, list[index] syntax will not work here
+        
 
-        System.out.println(list.contains(669));
+    //     System.out.println(list.contains(669));
 
-        list.set(0, 99);
+    //     list.set(0, 99);
 
-        list.remove(2);
+    //     list.remove(2);
 
-       //interview HCL
-
-        System.out.println(list);
-    }
+    //     System.out.println(list);
+    // }
+}
 }
