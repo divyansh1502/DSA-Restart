@@ -1,4 +1,3 @@
-
 public class LC744 {
     public static void main(String[] args) {
         char[] letters = {'b', 'e', 'k'};
