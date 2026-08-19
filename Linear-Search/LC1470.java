@@ -9,10 +9,9 @@ public class LC1470 {
     }
     static int[] shuffle(int[] nums, int n) {
         int[] newArr = new int[nums.length];
-        
         for (int i = 0; i < n; i++) {
             newArr[2 * i] = nums[i];
-            newArr[2 * i + 1] = nums[i + n];
+            newArr[2 * i + 1] = nums[n + i]; 
         }
         return newArr;
     }
