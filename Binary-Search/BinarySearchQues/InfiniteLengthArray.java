@@ -8,8 +8,9 @@ public class InfiniteLengthArray {
         int start = 0;
         int end = 1;
         while(target > arr[end]) {
-            start = end;
-            end = end * 2;
+            int newStart = end + 1;
+            end = end + (end - start + 1) * 2;
+            start = newStart;
         }
         
         while(start <= end) {
