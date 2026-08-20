@@ -15,6 +15,7 @@ public class PeakMountain {
                 end = mid;
             }
         }
+        //same for LC 162 hrad problem
         return start;
     }
 }
