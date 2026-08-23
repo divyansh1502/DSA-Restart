@@ -18,7 +18,7 @@ public class LC1095 {
                     return mid;
                 }
             }
-        }//
+        }
         return -1;
     }
 }
