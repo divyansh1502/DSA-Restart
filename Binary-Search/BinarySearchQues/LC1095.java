@@ -18,7 +18,8 @@ public class LC1095 {
                     return mid;
                 }
             }
-        }
+        } //last wasted day of my life
+        
         return -1;
     }
 }
