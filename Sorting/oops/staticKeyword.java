@@ -6,7 +6,8 @@ public class staticKeyword {
         // Student.college = "AIET";
 
         s1.display();   
-        s2.display();   
+        s2.display();  
+        
 
     }
 }
