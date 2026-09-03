@@ -1,14 +1,17 @@
 public class test {
     public static void main(String[] args) {
-        int a = 10;
-        long b;
-        b = a;
-        System.out.println(b);
 
-        String c = "a";
-        String d = "b";
-        String e = c + d;
+        int[][] arr = {
+            {1, 2, 3},
+            {1, 2, 3, 5},
+            {1, 2}
+        };
 
-        System.out.println(e);
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 }

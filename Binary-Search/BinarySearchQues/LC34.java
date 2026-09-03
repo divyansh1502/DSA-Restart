@@ -31,7 +31,7 @@ public class LC34 {
             } else {
                 ans = mid;
                 if(findStartIndex) {
-                    end = mid - 1;
+                    end = mid - 1; 
                 } else {
                     start = mid + 1;
                 }
