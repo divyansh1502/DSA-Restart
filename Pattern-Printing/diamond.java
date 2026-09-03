@@ -4,13 +4,14 @@ public class diamond {
         pattern(6);
     }
     static void pattern(int n) {
-        for (int i = 0; i < n * 2 - 1; i++) {
-            int x = i > n - 1 ? i - n + 1: n - i - 1;
-            for (int j = 0; j < x; j++) {
-                System.out.print("  ");
+        for (int row = 0; row < 2 * n; row++) {
+            int totalColsInRow = row > n ? 2 * n - row: row;
+
+            int noOfSpaces = n - totalColsInRow;
+            for (int s = 0; s < noOfSpaces; s++) {
+                    System.out.print(" ");
             }
-            int y = i > n - 1 ? (n * 2 - i) * 2 - 3: i * 2 + 1;
-             for (int j = 0; j < y; j++) {
+            for (int col = 0; col < totalColsInRow; col++) {
                 System.out.print("* ");
             }
             System.out.println();
