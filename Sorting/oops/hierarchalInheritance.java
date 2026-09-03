@@ -1,5 +1,7 @@
 public class hierarchalInheritance {
     public static void main(String[] args) {
+        Student s1 = new EngineeringStudent();
+        s1.markAttendence();
         
     }
 }
