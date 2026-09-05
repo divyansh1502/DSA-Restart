@@ -8,7 +8,7 @@ public class factorial {
         if(n == 0) {
             return 1;
         }
-        int fact = n * fact(n - 1);
-        return fact;
+        
+        return  n * fact(n - 1);
     }
 }
